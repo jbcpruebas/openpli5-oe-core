@@ -193,7 +193,9 @@ PKGV = "2.7+git${GITPKGV}"
 
 ENIGMA2_BRANCH ?= "master"
 GITHUB_URI ?= "git://github.com"
-SRC_URI = "${GITHUB_URI}/OpenPLi/${BPN}.git;branch=${ENIGMA2_BRANCH}"
+SRC_URI = "${GITHUB_URI}/OpenPLi/${BPN}.git;branch=${ENIGMA2_BRANCH} \
+	file://gdi_picload.patch \
+"
 
 LDFLAGS_prepend = "${@bb.utils.contains('GST_VERSION', '1.0', ' -lxml2 ', '', d)}"
 
