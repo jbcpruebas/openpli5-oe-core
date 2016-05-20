@@ -13,6 +13,7 @@
 [submodule "meta-openpli/recipes-openpli/e2openplugins"]
 	path = meta-openpli/recipes-openpli/e2openplugins
 	url = git://github.com/E2OpenPlugins/e2openplugins.git
+	branch = upstream
 	ignore = dirty
 [submodule "meta-formuler"]
 	path = meta-formuler
