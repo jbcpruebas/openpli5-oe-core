@@ -23,7 +23,7 @@ EXTRA_OECONF_remove = " \
 
 # Fix typos
 PACKAGECONFIG[acl] = "--with-acl-support,--without-acl-support,acl"
-PACKAGECONFIG[aio] = "--with-aio-support,--without-aio-support,libaio"
+#PACKAGECONFIG[aio] = "--with-aio-support,--without-aio-support,libaio"
 
 # Remove unused, add own config, init script
 SRC_URI += " \
