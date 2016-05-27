@@ -58,20 +58,30 @@ ENIGMA2_PLUGINS = " \
 	enigma2-plugin-systemplugins-videotune \
 	enigma2-plugin-systemplugins-osdpositionsetup \
 	\
+<<<<<<< fd52a847f83d9e2ca8598529ccad5bc7355c5706
 <<<<<<< a39c612f445af028346c7abb4cf558f05fd7ac58
 =======
+=======
+<<<<<<< 59efa152afc1404428fc1408dbb902e8f81ee3c3
+>>>>>>> [libdca] updated to version 0.0.5-10
 <<<<<<< e43d35f5c66fe5e9c6114f34d4eb9ad1eb1de16e
 	${@base_contains("MACHINE_FEATURES", "3dtv", "enigma2-plugin-systemplugins-osd3dsetup" , "", d)} \
 	${@base_contains("MACHINE_FEATURES", "dvb-c", "enigma2-plugin-systemplugins-cablescan" , "", d)} \
 	${@base_contains("MACHINE_FEATURES", "hdmicec", "enigma2-plugin-systemplugins-hdmicec" , "", d)} \
 	${@base_contains("MACHINE_FEATURES", "wlan", "enigma2-plugin-systemplugins-wirelesslan", "", d)} \
 =======
+<<<<<<< fd52a847f83d9e2ca8598529ccad5bc7355c5706
 >>>>>>> - inline replaced base_contains is deprecated, please use bb.utils.contains instead:
+=======
+=======
+>>>>>>> [libdca] updated to version 0.0.5-10
+>>>>>>> [libdca] updated to version 0.0.5-10
 	${@bb.utils.contains("MACHINE_FEATURES", "3dtv", "enigma2-plugin-systemplugins-osd3dsetup" , "", d)} \
 	${@bb.utils.contains("MACHINE_FEATURES", "dvb-c", "enigma2-plugin-systemplugins-cablescan" , "", d)} \
 	${@bb.utils.contains("MACHINE_FEATURES", "hdmicec", "enigma2-plugin-systemplugins-hdmicec" , "", d)} \
 	${@bb.utils.contains("MACHINE_FEATURES", "osdposition", "enigma2-plugin-systemplugins-osdpositionsetup" , "", d)} \
 	${@bb.utils.contains("MACHINE_FEATURES", "wlan", "enigma2-plugin-systemplugins-wirelesslan", "", d)} \
+<<<<<<< fd52a847f83d9e2ca8598529ccad5bc7355c5706
 <<<<<<< a39c612f445af028346c7abb4cf558f05fd7ac58
 	${@bb.utils.contains("MACHINE_FEATURES", "3dtv", "enigma2-plugin-systemplugins-osd3dsetup" , "", d)} \
 	${@bb.utils.contains("MACHINE_FEATURES", "dvb-c", "enigma2-plugin-systemplugins-cablescan" , "", d)} \
@@ -79,7 +89,16 @@ ENIGMA2_PLUGINS = " \
 	${@bb.utils.contains("MACHINE_FEATURES", "wlan", "enigma2-plugin-systemplugins-wirelesslan", "", d)} \
 =======
 >>>>>>> - inline replaced base_contains is deprecated, please use bb.utils.contains instead:
+=======
+<<<<<<< 59efa152afc1404428fc1408dbb902e8f81ee3c3
+>>>>>>> [libdca] updated to version 0.0.5-10
 >>>>>>> - inline replaced base_contains is deprecated, please use bb.utils.contains instead:
+=======
+	${@bb.utils.contains("MACHINE_FEATURES", "3dtv", "enigma2-plugin-systemplugins-osd3dsetup" , "", d)} \
+	${@bb.utils.contains("MACHINE_FEATURES", "dvb-c", "enigma2-plugin-systemplugins-cablescan" , "", d)} \
+	${@bb.utils.contains("MACHINE_FEATURES", "hdmicec", "enigma2-plugin-systemplugins-hdmicec" , "", d)} \
+	${@bb.utils.contains("MACHINE_FEATURES", "wlan", "enigma2-plugin-systemplugins-wirelesslan", "", d)} \
+>>>>>>> [libdca] updated to version 0.0.5-10
 	\
 	${@bb.utils.contains('OPENPLI_FEATURES', 'ci', 'enigma2-plugin-systemplugins-commoninterfaceassignment', '', d)} \
 	${@bb.utils.contains('OPENPLI_FEATURES', 'dvd', 'enigma2-plugin-extensions-cdinfo enigma2-plugin-extensions-dvdplayer', '', d)} \
