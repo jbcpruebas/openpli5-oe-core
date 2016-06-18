@@ -25,7 +25,11 @@ PR = "r1"
 
 inherit update-rc.d
 
+<<<<<<< HEAD
 SRC_URI = "https://github.com/pyload/pyload/releases/download/v0.4.9/pyload-src-v${PV}.zip \
+=======
+SRC_URI = "https://github.com/pyload/pyload/releases/download/v${PV}/pyload-src-v${PV}.zip \
+>>>>>>> 5e3810f831a5e82f42ec3f281a5696b1ba38db94
   file://pyload.init \
   file://pyload.tar.gz.defaults"
 SRC_URI[md5sum] = "28876150af22999b6f539c8579d3b415"
